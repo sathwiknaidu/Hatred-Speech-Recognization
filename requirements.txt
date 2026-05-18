@@ -1,0 +1,12 @@
+Flask>=3.0
+langdetect>=1.0.9
+# Multilingual toxicity/hate detection (downloads pretrained model on first use)
+detoxify>=0.5.2
+torch>=2.2.0
+transformers>=4.45
+# Translation (optional)
+googletrans==4.0.0rc1
+# For official Google Cloud Translation API (set GOOGLE_APPLICATION_CREDENTIALS)
+google-cloud-translate>=2.0.0
+# Additional fallback translator
+deep-translator>=1.11.4 
